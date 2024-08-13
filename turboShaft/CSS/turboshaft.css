@@ -1,0 +1,932 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=STIX+Two+Text:ital@0;1&display=swap');
+html{
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: #693939;
+}
+body {
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+@media (max-width:8160px) {
+  .menu_contact_text {
+    font-size: 20px;
+  }
+  .menu ul {
+    font-size: 28px;
+  }
+  .section-tree_assortiment__row {
+  justify-content: space-between;
+  }
+  .section-tree_assortiment__textbottom{
+    margin: 16px 0 0 0;
+  }
+  .section-tree_assortiment__block_p{
+    padding: 136px 0 0 0;
+  }
+  .section-two{
+  height: 1080px;
+  }
+  .section-tree_assortiment__block_p{
+    font-size: 55px;
+  }
+    .section-tree{
+    width: 100vw;
+    height: 1080px;
+  }
+  .section-tree_assortiment{
+    height: 1080px;
+  }
+  .section-four__contact{
+    flex-direction: row;
+  }
+  .section-tree_assortiment__textbottom{
+    font-size: 36px;
+  }
+  .section-tree_assortiment__text{
+    font-size: 16px;
+  }
+  .section-tree_assortiment__blocks {
+    margin-bottom: 67px; 
+  }
+  .section-tree_assortiment__block {
+    max-width: 303px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 100%; 
+    box-sizing: border-box;
+    /* АНИМАЦИЯ */
+    position: relative;
+    overflow: hidden;
+    transform: translateY(70px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    /* АНИМАЦИЯ */
+    background: #fff;
+    height: 296.31px;
+    margin: 7.5px;
+  }
+  .section-tree_assortiment__img {
+    width: 100%;
+    height: 181.42px;
+  }
+  .background_menu{
+    border-radius: 49px 0 0 49px;
+    height: 73px;
+    width: 1581px;
+    margin: 49px 0 0 339px; 
+    flex-direction: row;
+  }
+  .background-slogan{
+    width: 600px;
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    }
+  .company-text__item h1{
+    font-size: 55px;
+  }
+  .background-slogan__item_two{
+    border-bottom: 1px #FFFFFF solid;
+    padding-bottom: 30px;
+  }
+  .logo{
+    margin: auto 0 auto 26px;
+  }
+  .menu{
+    flex-direction: row;
+  }
+  .menu ul {
+    display: flex; 
+    height: 27px;
+  }
+  .menu ul li{
+    margin-right: 61px;
+  }
+  .scrollLink3 {
+    margin-right: 160px;
+  }
+  .img-slider{
+    height: 100%;
+  }
+  .section-two__p{
+    margin: auto;
+    text-align: start;
+    width: 551px;
+    font-size: 24px;
+  }
+  .company-text__item p {
+    margin: 0 40px;
+    font-size: 24px;
+  }
+  .btnapp{
+    height: 80px;
+    width: 413px;
+    font-size: 28px;
+  }
+  .section-four{
+    height: 1005px;
+  }
+  .section-four__contact__text_p{
+    font-size: 40px;
+    margin: 0;
+  }
+  .section-four__contact__text_a{
+    font-size: 40px;
+  }
+  .section-four__contact__block{
+    width: 583px;
+    margin: auto 20px;
+    height: 130px;
+  }
+  .section-four__adress{
+    margin: auto;
+    width: 583px;
+    padding-bottom: 50px;
+  }
+  .section-four__contact__mapblock{
+    margin: auto;
+    gap: 100px;
+  }
+  iframe{
+    width: 100%;
+  }
+  .section-four__contact__blocks {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-four__contact__mapblock__a{
+    font-size: 35px;
+  }
+}
+@media (max-width:1911px) {
+  .background_menu {
+    flex-direction: row;
+    border-radius: 0px;
+    width: auto;
+    margin: 0;
+    height: 60px;
+    transition: 1s;
+  }
+  .menu ul {
+    font-size: 24px;
+  } 
+  .background-slogan{
+    position: absolute;
+    top: 65%;
+    left: 20px;
+    z-index: 20;
+  }
+}
+@media (max-width:1690px) {
+  .section-two__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-two__p {
+    margin: 10px;
+  }
+  
+}
+@media (max-width:1440px) {
+    .section-tree_assortiment__block{
+    max-width: 250px;
+  }
+  .background-slogan{
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    z-index: 20;
+  }
+  .section-two__p{
+    margin:auto 0 auto 40px;
+  }
+  .background_menu{
+    flex-direction: row;
+    border-radius: 0px;
+    width: auto;
+    margin: 0;
+    height: 60px;
+    transition: 1s;
+  }
+  .scrollLink3 {
+    margin-right: 0;
+  }
+  .menu ul {
+    font-size: 24px;
+  }
+}
+@media (max-width:1320px) {
+  .menu ul {
+    font-size: 22px;
+  }
+  .menu_contact_text {
+    font-size: 16px;
+  }
+}
+@media (max-width:1200px) {
+  .menu ul {
+    font-size: 20px;
+  }
+  .menu ul li {
+    margin-right: 40px;
+  }
+  .img-mot{
+    width: 75%;
+  }
+  .section-tree_assortiment__block{
+    max-width: 230px;
+  }
+  .section-two__h1{
+    font-size: 2.3vw;
+    width: 100px;
+  }
+  .section-four__contact__mapblock ul{
+    padding: 0;
+  }
+}
+@media (max-width:1050px) {
+  .menu ul li {
+    margin-right: 23px;
+  }
+  .section-tree_assortiment__img{
+    height: 137px;
+  }
+  .section-tree_assortiment__text{
+    margin: auto 10px;
+  }
+}
+@media (max-width:1000px) {
+  .section-two__p{
+    margin: auto 0;
+  }
+  .section-two{
+    height: 1080px;
+    }
+  .section-four__contact__mapblock ul{
+    padding: 0;
+  }
+  .section-tree_assortiment__textbottom {
+    font-size: 20px;
+  }
+  .section-tree_assortiment__text{
+    font-size: 12px;
+  }
+  .section-tree_assortiment__block {
+    max-width: 200px; 
+    height: 260px;
+  }
+  .section-tree_assortiment__blocks {
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 2fr);
+    margin-bottom: 50px;
+  }
+  .section-tree_assortiment__img {
+    width: 300px;
+    height: 143.3px;
+  }
+  .section-four__contact__text_p{
+    font-size: 30px;
+  }
+  .section-four__contact__text_a{
+    font-size: 30px;
+  }
+  .section-four__contact__block{
+    width: 345px;
+    margin: auto auto;
+    height: 70px;
+  }
+  iframe{
+    width: 100%;
+    height: 400px;
+  }
+  .section-four__adress{
+    width: 345px;
+    padding-bottom: 20px;
+  }
+  .section-four__contact__mapblock__a{
+    font-size: 25px;
+  }
+  .section-four__contact__mapblock{
+    gap: 40px;
+  }
+  .section-four{
+    height: 800px;
+  }
+  .header__menu{
+    margin: 0;
+  }
+  .background_menu{
+    flex-direction: column;
+    border-radius: 0px;
+    width: auto;
+    margin: 0;
+    height: 60px;
+    transition: 1s;
+  }
+  .background-slogan {
+    margin: 0;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 69%;
+    left: 20px;
+    z-index: 20;
+  }
+  .background-slogan__item_two{
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .btnapp{
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+  }
+  .logo {
+    margin: auto;
+  }
+  .menu{
+    flex-direction: column;
+    height: 0px;
+    overflow: hidden;
+  }
+  .menu ul {
+    display: block;
+    height: 100%;
+  }
+  .menu ul li {
+    padding: 10px 10px 10px 0;
+    text-align: center;
+    margin: 0;
+  }
+  .scrollLink3 {
+    margin-right: 0px;
+  }
+  .section-two__item{
+    display: flex;
+    flex-direction: column;
+  }
+  .img-mot{
+    width: 90%;
+  }
+  .section-two__h1{
+    font-size: 3.3vw;
+  }
+  .section-two__p{
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+  }
+  .company-text__item h1{
+    font-size: 35px;
+  }
+  .company-text__item p {
+    font-size: 22px;
+  }
+  .section-tree{
+    height: auto;
+  }
+  .section-tree_assortiment{
+    height: auto;}
+}
+@media (max-width:900px) {
+  .section-tree_assortiment__row{
+  box-sizing:border-box;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+  .section-tree_assortiment__block {
+    max-width: 150px;
+    height: 200px; }
+  .section-tree_assortiment__img{
+    height: 90px;
+    width: 150px;
+  }
+}
+@media (max-width:768px) {
+  .section-tree_assortiment__textbottom{
+    margin: 10px auto;
+  }
+  .section-tree_assortiment__block_p{
+    padding:50px 0 0 0;
+    font-size: 35px;
+  }
+  .section-two{
+    height: 800px;
+  }
+  .section-four__contact{
+    flex-direction: column;
+  }
+  .section-four__adress{
+    margin-top: 100px;
+  }
+  .section-four__contact__text_p{
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .section-four__contact__text_a{
+    font-size: 20px;
+  }
+  .section-four__contact__block{
+    width: 345px;
+  }
+  .section-tree_assortiment__text {
+    font-size: 10px;
+  }
+  .section-tree_assortiment__block {
+    max-width: 150px;
+    height: 190px;
+  }
+  iframe{
+    width: 100%;
+    height: 40vw;
+  }
+  .section-four__adress{
+    width: 345px;
+    padding-bottom: 0px;
+  }
+  .section-four__contact__mapblock__a{
+    font-size: 25px;
+  }
+  .section-four{
+    height: 800px;
+  }
+}
+@media (max-width:550px) {
+ 
+  .section-tree_assortiment__block_p{
+    font-size: 35px;
+  }
+  .section-two{
+    height: 600px;
+  }
+  .section-tree_assortiment__textbottom {
+    font-size: 15px;
+  }
+  .company-text__item h1 {
+    font-size: 26px;
+  }
+  .company-text__item p {
+    font-size: 16px;
+  }
+  .background-slogan {
+    top: 69%;
+  }
+}
+@media (max-width:370px) {
+  .section-tree_assortiment__block_p{
+    font-size: 20px;
+  }
+  .section-tree_assortiment__block {
+    max-width: 130px;
+    height: 190px;
+  }
+  .section-tree_assortiment__blocks {
+    margin-bottom: 10px; 
+  }
+  .section-four__contact__block {
+    width: 90%;
+    margin: 0 10px;
+  }
+  .section-four__adress {
+    width: 90%;
+    padding-bottom: 0px;
+  }
+  .section-four__contact__mapblock{
+    width: 94%;
+    margin: 10px;
+  } 
+  iframe {
+    width: 70%;
+    height: 40vw;
+  }
+}
+/*Первый блок*/
+.logo{
+  width: 280px;
+  height: 59px;
+  display: flex;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 1080px;
+}
+.header__menu{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  background: url("/img/menu.png") no-repeat center;
+  background-size: cover;
+  flex-direction: column;
+}
+.background_menu{
+  background-color: #8A1C1F;
+  display:flex;
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.88;
+  }
+}
+.menu{
+  flex-grow: 1;
+  justify-content: space-evenly;
+  color: white;
+  display: flex;
+}
+.menu ul {
+  margin: auto;
+  list-style-type: none; 
+  font-family: "STIX Two Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+}
+.menu ul li {
+  height: 27px;
+}
+
+.menu_contact {
+  display: flex; 
+  flex-direction: column; 
+  width: auto;
+  height: 100%;
+}
+.menu_contact_text {
+  color: rgb(255, 255, 255); 
+  transition: color 0.3s ease; 
+  text-decoration: none;
+  font-family: "STIX Two Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 3px 0;
+}
+.menu_contact_text:hover {
+  color: rgba(39, 9, 10, 0.88);
+}
+.menu ul li a{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+.menu ul li a:hover{
+  color: rgba(39, 9, 10, 0.88);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.background-slogan__items{
+  margin: 0;
+}
+.background-slogan__item_two{
+  color: #fff;
+  font-size: 42px;
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btnapp{
+  background-color:rgba(124, 30, 33, 0.88);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "STIX Two Text", serif;
+  transition: 300ms;
+  color: #fff;
+}
+.btnapp:hover{
+  background-color:rgba(39, 9, 10, 0.88);
+  border: none;
+}
+/*Второй блок*/
+.section-one{
+  height: auto;
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.fade-in {
+  opacity: 1;
+}
+.company{
+  margin: 118px auto 35px auto;
+}
+.company-text__item{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.company-text__item p {
+  margin-top: 45px;
+  font-family: "Oranienbaum", serif;
+}
+.company-text__item h1{
+  font-family: "STIX Two Text", serif;
+  font-weight: 400;
+  margin-top: 0;
+  font-style: normal;
+}
+.img-slider{
+  width: 100%;
+}
+/*Третий блок*/
+.section-two{
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+.section-two.fade-in {
+   opacity: 1;
+}
+.section-two__item{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section-two__item__text{
+  text-align: center;
+}
+.section-two__h1{
+  width: 100%;
+  font-family: "STIX Two Text", serif;
+  font-weight: 400;
+}
+.section-two__p{
+  font-family: "Oranienbaum", serif;
+}
+/*Четвертый блок*/
+.section-tree{
+  width: 100vw;
+}
+.section-tree_assortiment{
+  width: 100vw;
+  background: url("/img/assortment.png") no-repeat;
+  background-position: center;
+}
+.section-tree_assortiment__block_p{
+  text-align: center;
+  letter-spacing: 0.16em;
+  margin: 0;
+  color: #fff;
+  font-family: "STIX Two Text", serif;
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}.section-tree_assortiment__block_p.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.section-tree_assortiment__blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-tree_assortiment__blocks:last-child {
+  margin-bottom: 0; 
+}
+.section-tree_assortiment__row {
+  display: flex;
+  align-items: stretch;
+}
+.section-tree_assortiment__block.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.section-tree_assortiment__img {
+  padding: 11px 0;
+  display: block;
+  opacity: 0.5; /* Начальное значение прозрачности */
+  transform: scale(1); /* Начальное значение масштаба */
+  transition: transform 0.5s ease, opacity 0.5s ease 0.2s; /* Транзиция для transform и opacity с разными задержками */
+}
+.section-tree_assortiment__block:hover .section-tree_assortiment__img {
+  opacity: 1; /* Конечное значение прозрачности при наведении */
+  transform: scale(1.2); /* Конечное значение масштаба при наведении */
+  transition-delay: 0s; /* Убираем задержку при наведении */
+}
+.section-tree_assortiment__text{
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #000;
+  
+  margin: auto;
+  font-family: "STIX Two Text", serif;
+}
+.section-tree_assortiment__blocks_text{
+  width: 90%;
+  height: 68.76px;
+  border-top: #fff 1px solid;
+}
+.section-tree_assortiment__textbottom{
+  color: #fff;
+  letter-spacing: 0.16em;
+  text-align: center;
+  font-family: "Oranienbaum", serif;
+}
+/*Пятый блок*/
+.section-four{
+  width: 100vw;
+}
+.section-four__contact{
+  height: 1005px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  background: #fff;
+}
+.section-four__contact__text_p{
+  letter-spacing: 0.05em;
+  color: #000;
+  font-family: "STIX Two Text", serif;
+}
+.section-four__contact__text_a{
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  margin: 16px 0 0 0;
+  font-family: "Oranienbaum", serif;
+}
+.section-four__contact__block{
+  padding-bottom: 18px;
+  border-bottom: 1px #4B4B4B solid;
+}
+.section-four__adress{
+  border-bottom: 1px #4B4B4B solid;
+  height: auto;
+}
+.section-four__contact__mapblock{
+  display: flex;
+  flex-direction: column;
+}
+.section-four__contact__mapblock ul {
+  display: flex; 
+  flex-direction: column;
+  list-style-type: none; 
+  gap: 14px;
+}
+.section-four__contact__mapblock__a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Oranienbaum", serif;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Транзиция для цвета border-bottom и текста */
+}
+.section-four__contact__mapblock__a:hover{
+  border-bottom-color: #000;
+  color: #474747;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: -100px; /* Скрываем кнопку за правым краем экрана */
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "STIX Two Text", serif;
+  background-color: #8A1C1F;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: right 0.5s ease-in-out, background-color 0.3s ease-in-out;; /* Добавляем плавное появление */
+}
+.back-to-top:hover {
+  background-color: #8A1C1F;
+}
+.back-to-top.visible {
+  right: 20px; /* Показываем кнопку, когда страница прокручена до определенной позиции */
+}
+/*
+Модальное окно
+*/
+.modal {
+  display: none; /* Скрываем модальное окно по умолчанию */
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: transparent;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 700px;
+}
+.close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form {
+  width: 340px;
+  height: 540px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "STIX Two Text", serif;
+  position: relative
+}
+.h2__form {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+  font-weight: 300;
+}
+.input__form {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .3s;
+  border-bottom: 1px solid #000000;
+  resize: 150px;
+}
+.input__form:focus {
+  border-bottom: 2px solid #78788c
+}
+.p__form:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 15px;
+  color: #000000
+}
+.button__form {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #000000;
+  background: 0;
+  color: #000000;
+  cursor: pointer;
+  transition: all .3s
+}
+.button__form:hover {
+  background: #000000;
+  color: #fff
+}
+.div__form {
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #6b0404;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 18px;
+  box-shadow: 10px 10px 40px -14px #000;
+}
+span {
+  margin: 0 5px 0 15px;
+}
